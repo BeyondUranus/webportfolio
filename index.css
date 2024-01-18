@@ -10,7 +10,11 @@ html {
 }
 
 main {
+	min-height: 100vh;
 	background-image: url(./images/background.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+	background-attachment: fixed;
 }
 
 #landing img {
