@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'League Spartan', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+main {
+	background-image: url(./images/background.jpg);
+}
+
+#landing img {
+	height: 250px;
+	width: 250px;
+}
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 0.8rem;
+}
+
+.carousel-item img {
+	height: 30vh;
+	width: 50vw;
+}
+
+.carousel-inner img {
+	min-height: 70vh;
+	min-width: 80vw;
+}
+
+.bg-tools {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#contact-icons img {
+	height: 25px;
+	width: 25px;
+} 
+
+footer {
+    background-color: black;
+}
+
